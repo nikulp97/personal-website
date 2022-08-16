@@ -26,7 +26,7 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
-              <a href="#home" class="nav__link">
+              <a href="#home" class="nav__link" active-link>
                 <i class="uil uil-estate nav__icon"></i> Home
               </a>
             </li>
@@ -647,14 +647,166 @@
       <section class="project section"></section>
 
       <!--==================== TESTIMONIAL ====================-->
-      <section class="testimonial section"></section>
+      <section class="testimonial section">
+        <h2 class="section__title">Testimonial</h2>
+        <span class="section__subtitle">My colleagues saying</span>
+
+        <div class="testimonial__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== TESTIMONIAL 1 ====================-->
+            <div class="testimonial__content swiper-slide">
+              <div class="testimonial__data">
+                <div class="testimonial__header">
+                  <img
+                    src="assets/img/testimonial1.jpg"
+                    alt=""
+                    class="testimonial__img"
+                  />
+                  <div>
+                    <h3 class="testimonial__name">Sara Smith</h3>
+                    <span class="testimonial__client">Colleague</span>
+                  </div>
+                </div>
+
+                <div>
+                  <i class="uil uil-star testimonial__icon"></i>
+                  <i class="uil uil-star testimonial__icon"></i>
+                  <i class="uil uil-star testimonial__icon"></i>
+                  <i class="uil uil-star testimonial__icon"></i>
+                  <i class="uil uil-star testimonial__icon"></i>
+                </div>
+              </div>
+
+              <p class="testimonial__description">
+                I get a good impression, I carry out my project with all the
+                possible quality and attention and support 24 hours a day
+              </p>
+            </div>
+            <!--==================== TESTIMONIAL 2 ====================-->
+            <div class="testimonial__content swiper-slide">
+              <div class="testimonial__data">
+                <div class="testimonial__header">
+                  <img
+                    src="assets/img/testimonial2.jpg"
+                    alt=""
+                    class="testimonial__img"
+                  />
+                  <div>
+                    <h3 class="testimonial__name">Luke Jones</h3>
+                    <span class="testimonial__client">Instructor</span>
+                  </div>
+                </div>
+
+                <div>
+                  <i class="uil uil-star testimonial__icon"></i>
+                  <i class="uil uil-star testimonial__icon"></i>
+                  <i class="uil uil-star testimonial__icon"></i>
+                  <i class="uil uil-star testimonial__icon"></i>
+                  <i class="uil uil-star testimonial__icon"></i>
+                </div>
+              </div>
+
+              <p class="testimonial__description">
+                Nikul was a great student. Always attentive, asking questions,
+                and being a great team player.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination-testimonial"></div>
+        </div>
+      </section>
 
       <!--==================== CONTACT ME ====================-->
-      <section class="contact section" id="contact"></section>
+      <section class="contact section" id="contact">
+        <h2 class="selection__title">Contact Me</h2>
+        <span class="selection__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Call Me</h3>
+                <span class="contact__subtitle">(732) 484-1632</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Email Me</h3>
+                <span class="contact__subtitle">nikulp1997@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle">Jersey City, NJ</span>
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact__form grid">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="" class="contact__label">Name</label>
+                <input type="text" class="contact__input" />
+              </div>
+              <div class="contact__content">
+                <label for="" class="contact__label">Email</label>
+                <input type="email" class="contact__input" />
+              </div>
+            </div>
+            <div class="contact__content">
+              <label for="" class="contact__label">Project</label>
+              <input type="text" class="contact__input" />
+            </div>
+            <div class="contact__content">
+              <label for="" class="contact__label">Message</label>
+              <textarea
+                name=""
+                id=""
+                cols="0"
+                rows="7"
+                class="contact__input"
+              ></textarea>
+            </div>
+            <div>
+              <a href="#" class="button button--flex">
+                Send Message <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
 
     <!--==================== FOOTER ====================-->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Nikul</h1>
+            <span class="footer__subtitle">Frontend developer</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#services" class="footer__link">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
     <!--==================== SCROLL TOP ====================-->
 
