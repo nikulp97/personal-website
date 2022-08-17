@@ -1105,15 +1105,16 @@ img {
     height: calc(var(--header-height) + 1.5rem);
     column-gap: 1rem;
   }
-  .nav__icon,
+  /* .nav__icon,
   .nav__close,
   .nav__toggle {
     display: none;
-  }
+  } */
 
   .nav__list {
     display: flex;
     column-gap: 2rem;
+    justify-content: center;
   }
 
   .nav__menu {
@@ -1132,7 +1133,7 @@ img {
   }
 
   .home__blob {
-    width: 270px;
+    width: 330px;
   }
   .home__scroll {
     display: block;
